@@ -34,6 +34,8 @@ window.onscroll = () => {
 
   header.classList.toggle("sticky", window.scrollY > 100);
 
+  console.log("header");
+
   /*- remove toggle icon  and navbar when click navbar link scroll-*/
 
   menuIcon.classList.remove("bx-x");
